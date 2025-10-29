@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-// checks if the user is idle or not based on these event types
+
 const activityEvents = [
   "mousedown",
   "mousemove",
@@ -45,11 +45,11 @@ export default function Idle() {
       <h3>
         {isIdle ? (
           <span role="img" aria-label="idle">
-            Idle 😴
+            Idle 
           </span>
         ) : (
           <span role="img" aria-label="active">
-            Active 🤠
+            Active 
           </span>
         )}
       </h3>
